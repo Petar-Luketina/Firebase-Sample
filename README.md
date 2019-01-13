@@ -1,6 +1,6 @@
 ### Firebase Tutorial
 
-A walkthrough can be found here: https://www.youtube.com/watch?v=qBXv-anVmyM
+A walkthrough can be found here: https://youtu.be/7Ax3FJBDDoo
 
 Refer to the buildozer.spec file for the proper requirement when compiling an APK.
 

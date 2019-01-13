@@ -39,7 +39,7 @@ ScreenManager:
 
 class MyApp(App):
 
-    url = 'https://samplefirebaseapp-fe077.firebaseio.com/.json'
+    url = 'URL HERE' # You must add .json to the end of the URL
 
     def patch(self, JSON):
         to_database = json.loads(JSON)
@@ -56,7 +56,7 @@ class MyApp(App):
     def delete(self, JSON):
         requests.delete(url = self.url[:-5] + JSON + ".json")
 
-    auth_key = 'qqdmdEODAGvCrj5S4BgXtaFmIUH8RcklpMEnWrcH'
+    auth_key = 'FIND YOUR AUTH KEY IN THE FIREBASE CONSEL' # Refer to the YouTube video on where to find this.
 
     def get(self):
         request = requests.get(self.url + '?auth=' + self.auth_key)
